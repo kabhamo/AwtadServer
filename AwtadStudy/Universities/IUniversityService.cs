@@ -1,6 +1,8 @@
-﻿namespace AwtadStudy.Course;
+﻿using AwtadStudy.Universities.Courses;
 
-public interface ICourseService
+namespace AwtadStudy.Universities;
+
+public interface IUniversityService
 {
     Task<Course> GetCourse(string courseID, Semester semester);
 
